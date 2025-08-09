@@ -60,4 +60,5 @@ async def delete_book(deleted_book=Body()):
             BOOKS.pop(i)
             break
 
+
 # similar @app.put @app.delete to insert and delete a record

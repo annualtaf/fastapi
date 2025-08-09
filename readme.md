@@ -1,5 +1,10 @@
 to run application in local
 
+python -m venv env
+env\Scripts\activate <!-- env is name of the environment -->
+
+pip install -r requirements.txt <!-- next install dependencies -->
+
 <!-- main = filename -->
 
 uvicorn main:app --reload
